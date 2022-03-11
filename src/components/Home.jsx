@@ -14,9 +14,10 @@ const Home = () => {
           I am a Front End developer.
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
-          I am currently experimenting with the MERN stack and transitioning into a full
-          stack role. I'm focused on building responsive front end
-          web applications
+          With over 5 years of experience in tinkering with Javascript and over
+          2 years of experience in React JS. I am currently experimenting with
+          the MERN stack and transitioning into a full stack role. I'm focused
+          on building responsive front end web applications
         </p>
         <div>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600 duration-300">
