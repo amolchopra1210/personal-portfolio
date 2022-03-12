@@ -1,10 +1,8 @@
-import React, {useState} from "react";
+import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 
 const Home = () => {
-  const [nav, showNav] = useState(false);
-  const handleClick = () => showNav(!nav);
   return (
     <div name="home" className="w-full h-screen bg-[#0a192f]">
       {/* container */}
@@ -23,20 +21,22 @@ const Home = () => {
           on building responsive front end web applications
         </p>
         <div>
-          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600 duration-300">
           <Link
-            onClick={handleClick}
+            className="group text-white w-fit cursor-pointer flex d-group border-2 px-6 py-3 my-2  items-center hover:bg-pink-600 hover:border-pink-600"
             to="work"
-            offset={25}
             smooth={true}
+            offset={30}
             duration={500}
           >
             View Work
-          </Link>View Work
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-3 hover:" />
             </span>
-          </button>
+          </Link>
+
+          {/* <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600 duration-300">
+            View Work
+          </button> */}
         </div>
       </div>
     </div>
