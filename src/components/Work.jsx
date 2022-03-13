@@ -1,6 +1,7 @@
 import React from "react";
 import Work1 from "../assets/work1.png";
 import Work2 from "../assets/work2.png";
+import Work3 from "../assets/work3.png";
 
 const Work = () => {
   return (
@@ -52,7 +53,7 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${Work2})` }}
+            style={{ backgroundImage: `url(${Work3})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
@@ -68,7 +69,7 @@ const Work = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Demo
+                      Link
                     </a>
                   </button>
                 </a>
@@ -103,7 +104,7 @@ const Work = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Demo
+                      Link
                     </a>
                   </button>
                 </a>
