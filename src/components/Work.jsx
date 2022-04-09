@@ -95,7 +95,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 text-center group-hover:opacity-100">
               <span className="text-2xl mx-auto font-bold text-white tracking-wider">
-                React-Typescript Application
+                React Firebase Application
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
