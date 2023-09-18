@@ -38,7 +38,7 @@ const Skills = () => {
             />
             <p className="my-4">NEXT JS</p>
           </div>
-          <div className="d-flex flex-col justify-center shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="flex flex-col justify-between shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Tailwind} alt="Tailwind icon" />
             <p className="my-4">TAILWIND CSS</p>
           </div>
