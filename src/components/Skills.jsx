@@ -4,7 +4,7 @@ import HTML from "../assets/html.png";
 import CSS from "../assets/css.png";
 import JavaScript from "../assets/javascript.png";
 import ReactImg from "../assets/react.png";
-import Node from "../assets/node.png";
+import Tailwind from "../assets/tailwind.png";
 import Typescript from "../assets/typescript.png";
 import Style from "../assets/style.png";
 import Next from "../assets/next.png";
@@ -23,31 +23,31 @@ const Skills = () => {
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={ReactImg} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={ReactImg} alt="REACT icon" />
             <p className="my-4">REACT</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={JavaScript} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={JavaScript} alt="JAVASCRIPT icon" />
             <p className="my-4">JAVASCRIPT</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img
               className="w-20 h-20 object-cover mx-auto"
               src={Next}
-              alt="HTML icon"
+              alt="NEXT JS icon"
             />
             <p className="my-4">NEXT JS</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Node} alt="HTML icon" />
-            <p className="my-4">NODE JS</p>
+          <div className="flex flex-col justify-between shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Tailwind} alt="Tailwind icon" />
+            <p className="my-4">TAILWIND CSS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Typescript} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={Typescript} alt="TYPESCRIPT icon" />
             <p className="my-4">TYPESCRIPT</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Style} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={Style} alt="STYLED COMPONENTS icon" />
             <p className="my-4">STYLED COMPONENTS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
@@ -55,7 +55,7 @@ const Skills = () => {
             <p className="my-4">HTML</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={CSS} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={CSS} alt="CSS icon" />
             <p className="my-4">CSS</p>
           </div>
         </div>
